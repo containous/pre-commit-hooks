@@ -1,0 +1,16 @@
+-   id: gofmt
+    name: Go Format
+    description: Formats Go code.
+    entry: make fmt
+    language: system
+-   id: goLint
+    name: Go Lint
+    description: Lint Go code.
+    entry: make lint
+    language: system
+-   id: gobuild
+    name: Go Build
+    description: Makes sure Go code can build.
+    entry: go build
+    language: system
+    files: \.go$
