@@ -1,4 +1,4 @@
--   id: gofmt
+-   id: goFmt
     name: Go Format
     description: Formats Go code.
     entry: make fmt
@@ -10,7 +10,7 @@
     entry: make lint
     language: system
     files: \.go$
--   id: gobuild
+-   id: goBuild
     name: Go Build
     description: Makes sure Go code can build.
     entry: go build
