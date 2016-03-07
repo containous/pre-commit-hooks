@@ -3,11 +3,13 @@
     description: Formats Go code.
     entry: make fmt
     language: system
+    files: \.go$
 -   id: goLint
     name: Go Lint
     description: Lint Go code.
     entry: make lint
     language: system
+    files: \.go$
 -   id: gobuild
     name: Go Build
     description: Makes sure Go code can build.
