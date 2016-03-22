@@ -20,7 +20,7 @@
     files: \.go$
     always_run: true
 -   id: goErrcheck
-    name: Go errchek
+    name: Go Errcheck
     description: Errcheck
     entry: errcheck .
     language: system
