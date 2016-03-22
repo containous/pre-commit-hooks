@@ -19,3 +19,10 @@
     language: system
     files: \.go$
     always_run: true
+-   id: goErrcheck
+    name: Go errchek
+    description: Errcheck
+    entry: errcheck .
+    language: system
+    files: \.go$
+    always_run: true
